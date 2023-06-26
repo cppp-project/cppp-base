@@ -25,14 +25,13 @@ namespace types
     template<typename Type>
     class Iterable;
 
+    //base::Bytes@0
     class Bytes
     {
     protected:
     public:
-        /**
-         * @date 2023-5-28
-         * @brief Value returned by various member functions when they fail.
-         */
+    
+        //base::npos@0
         static constexpr const c_size npos = (c_size)(-1);
 
         /**

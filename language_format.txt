@@ -1,0 +1,29 @@
+Include多语言注释格式化 对于语言文件和Include文件的编程格式
+
+语言文件格式
+
+```注释ID（一般为"<对象名>@第几次重载"）
+注释具体信息
+```
+
+示例：
+```base::Bytes@0
+/**
+ * @date 2023-5-29
+ * @brief C++ Plus Bytes type
+*/
+```
+
+
+Include文件格式
+
+<Tab/空格>//注释ID
+
+示例：
+    //base::Bytes@0
+这时会被替换为
+    /**
+    * @date 2023-5-29
+    * @brief C++ Plus Bytes type
+    */
+

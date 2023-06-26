@@ -33,3 +33,6 @@
 
 # Editor profile
 .vscode
+
+# Log files
+*.log

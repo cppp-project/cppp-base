@@ -7,8 +7,8 @@
  * @version 1.0.0
  * @link https://github.com/cppp-project/cppp-base/
  */
-#ifndef _CPPP_BASE_BYTES_HPP_
-#define _CPPP_BASE_BYTES_HPP_
+#ifndef _CPPP_BASE_MEMORY_HPP_
+#define _CPPP_BASE_MEMORY_HPP_
 
 #include "cpppencodings.hpp"
 #include "mincpppdef.hpp"

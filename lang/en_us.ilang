@@ -1,0 +1,15 @@
+# Include notes en_us
+
+```base::Bytes@0
+/**
+ * @date 2023-5-29
+ * @brief C++ Plus Bytes type
+*/
+```
+
+```base::npos@0
+/**
+ * @date 2023-5-28
+ * @brief Value returned by various member functions when they fail.
+ */
+```
