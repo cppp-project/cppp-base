@@ -1,0 +1,40 @@
+# CMake build files
+build/
+CMakeFiles
+*.so
+*.so.*.*.*
+*.a
+*.dylib
+*.stackdump
+*.lib
+*.pdb
+*.dll
+*.exe
+cmake_install.cmake
+CMakeCache.txt
+CTestTestfile.cmake
+DartConfiguration.tcl
+Makefile
+uninstall.cmake
+CTestCostData.txt
+*.inst
+Testing
+*.log
+*.dSYM
+
+# Patterns for all subdirectories: all kinds of automatic backup files.
+*.orig
+*.rej
+*~
+*.kate-swp
+*.swp
+.#*
+\#*#
+.vscode
+
+# Autopull modules
+build-aux/
+
+# Dist directory and temps
+cppp-base-v*
+__pycache__
