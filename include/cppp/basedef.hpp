@@ -3,7 +3,7 @@
  * @author ChenPi11
  * @brief C++ Plus base definitions
  * @version 0.0.1
- * @date 2023-7-21
+ * @date 2023-8-20
  * @copyright Copyright (C) 2023 The C++ Plus Project
  */
 /* Copyright (C) 1999-2023 Free Software Foundation, Inc.
@@ -40,7 +40,10 @@ namespace cppp
    template<typename Type>
    class Iterator;
    class Bytes;
+   
    typedef bool Boolean;
+   class Exception;
+
    /* C++ Plus basic functions and apis is in here. */
    namespace base
    {
