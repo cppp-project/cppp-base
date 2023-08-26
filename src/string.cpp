@@ -42,7 +42,7 @@ using namespace cppp;
 void WString::_update_buffer_size(const SizeType& length)
 {
     CharType* new_buffer = nullptr;
-    SizeType new_size = (length / DEFAULT_ALLOCATE_SIZE + (SizeType)(bool)(length % DEFAULT_ALLOCATE_SIZE)) * DEFAULT_ALLOCATE_SIZE);
+    SizeType new_size = (length / DEFAULT_ALLOCATE_SIZE + (SizeType)(bool)(length % DEFAULT_ALLOCATE_SIZE)) * DEFAULT_ALLOCATE_SIZE;
     if(new_size == 0)
     {
         free(_raw_data);
@@ -58,6 +58,7 @@ void WString::_update_buffer_size(const SizeType& length)
     _raw_data = new_buffer;
     _allocated_size = new_size;
     _length = length;
+    memset(_raw_data + _length, 0, _allocated_size - _length);
 }
 
 // Reset the string.
